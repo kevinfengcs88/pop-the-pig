@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Box, Button } from '@chakra-ui/react';
 
 let burstSize = Math.floor(Math.random() * (10 - 5) + 5);
 const Pig = () => {
@@ -14,8 +15,11 @@ const Pig = () => {
     <>
         <span>{burstSize}</span>
         <span>{(pigSize >= burstSize) ? 'you lost' : pigSize}</span>
-        <button onClick={feedPig}>Feed</button>
-        <button onClick={restartGame}>Restart</button>
+        <Button 
+          m='3'
+          colorScheme={'red'} 
+        onClick={feedPig}>Feed</Button>
+        <Button onClick={restartGame}>Restart</Button>
     </>
   );
 };
