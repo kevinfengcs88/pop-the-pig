@@ -1,6 +1,6 @@
 # Pop the Pig
 
-A web app that teaches React fundamentals through a simple game inspired by the famous children's toy, Pop the Pig.
+A web app that teaches React fundamentals through a simple game inspired by the famous children's toy, Pop the Pig. In the real-life game, players take turns rolling a die with various colors on it. If a player rolls "green" for example, a green burger is selected, and the player feeds the burger to the pig and pumps the pig's head according to the value indicated on the burger (integer value). The player who is able to pop the pig wins.
 
 ## Use State Hook
 
